@@ -1,0 +1,39 @@
+@import './variables';
+
+.prices__plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.priceCard{
+    border: 1px solid hsl(0, 0%, 90%);
+    flex: 1;
+
+    
+    &__title {
+        background-color: $secondaryColor;
+        color: $backgroundColor;
+        text-align: center;
+        padding: 1em;
+        width: 15rem;
+    }
+}
+    .title__heading {
+        color: $textColor;
+        text-transform: uppercase;
+        border-bottom: 1px solid $textColor;
+        padding-bottom: 1em;
+        max-width: 80%;
+        margin: 0 auto;
+        line-height: 90%;
+        font-weight: 400;
+    }
+
+    .title__summary {
+        margin: 0;
+    }
+
+    .title__price {
+        margin: 0;
+    }

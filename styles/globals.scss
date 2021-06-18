@@ -1,0 +1,39 @@
+@import "variables";
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: $fontStack;
+    font-size: $fontSize;
+    background-color: $backgroundColor;
+    color: $textColor;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer {
+  height: 250px;
+  background-color: $primaryColor;
+}
+.pageContent {
+  margin: 0 1rem;
+}
+
+.contactContainer {
+  display: flex;
+}
+
+.contactLeft {
+  width: 70vw;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  min-width: 30vw;
+  margin: 1rem;
+}
+
+@import 'price.scss'

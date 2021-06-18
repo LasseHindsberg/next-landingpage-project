@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: minmax(25%,50%) minmax(25%,50%);
+}
+.image {
+    margin-left: auto;
+}
+.heading {
+    text-transform: capitalize;
+}
+
+.copy {
+    text-align: justify;
+}
